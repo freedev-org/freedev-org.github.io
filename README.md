@@ -10,3 +10,9 @@ Web design? O que é isso? É de comer?
 ## Equipe
 
 Só tem eu mesmo: <https://github.com/Silva97>
+
+## Doações
+
+Se quiser apoiar um ou mais projetos, veja:
+
+* <https://freedev.com.br/doacoes>

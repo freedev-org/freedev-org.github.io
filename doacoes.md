@@ -1,4 +1,4 @@
-# Doações — FreeDev
+# Doações
 
 Se você gostou de algum projeto e quer mostrar seu apoio para que eu continue produzindo conteúdo
 gratuito e de qualidade, você pode fazer uma doação da maneira que achar melhor:
@@ -6,6 +6,8 @@ gratuito e de qualidade, você pode fazer uma doação da maneira que achar melh
 ## Pix
 
 `0a442eab-f8c6-410f-90ff-8dec390ae5f4`
+
+Obs.: No nome de Luiz Felipe Adão da Silva.
 
 ![qrcode-pix](img/qrcode-pix.jpeg)
 
