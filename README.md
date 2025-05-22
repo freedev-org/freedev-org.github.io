@@ -10,6 +10,7 @@ não entende nada de web design.
 
 ## Projetos
 
+- Linguagem Mya: <https://myaproject.org/>
 - Livro de Assembly: <https://mentebinaria.gitbook.io/assembly>
 - Livro de Web Security: <https://websec.freedev.com.br/>
 - Outros projetos inúteis podem ser encontrados no meu GitHub pessoal ([@Silva97](https://github.com/Silva97)).
