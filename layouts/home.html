@@ -1,0 +1,23 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+
+  <h1>Featured projects</h1>
+
+  {{ $projects := where .Site.RegularPages "Section" "projects" }}
+  {{ $featured := where $projects "Params.featured" true }}
+  {{ $sorted := sort $featured "Weight" }}
+  <div class="projects">
+    {{ range $sorted }}
+      <div class="card">
+        <h2>
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </h2>
+
+        {{ with .Params.description }}
+          <p>{{ . }}</p>
+        {{ end }}
+      </div>
+    {{ end }}
+  </div>
+{{ end }}
