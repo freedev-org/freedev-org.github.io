@@ -1,5 +1,8 @@
 {{ define "main" }}
-  <h1>{{ .Title }}</h1>
+  <div class="logo-text">
+    <span class="logo-free">Free</span><span class="logo-dev">Dev</span>
+  </div>
+
   {{ .Content }}
 
   <h1>Featured projects</h1>
@@ -9,15 +12,13 @@
   {{ $sorted := sort $featured "Weight" }}
   <div class="projects">
     {{ range $sorted }}
-      <div class="card">
-        <h2>
-          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-        </h2>
+      <a href="{{ .RelPermalink }}" class="card">
+        <h2>{{ .Title }}</h2>
 
         {{ with .Params.description }}
           <p>{{ . }}</p>
         {{ end }}
-      </div>
+      </a>
     {{ end }}
   </div>
 {{ end }}

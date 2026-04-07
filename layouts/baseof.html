@@ -3,7 +3,7 @@
 <head>
   {{ partial "head.html" . }}
 
-  {{ $style := resources.Get "css/projects.css" | minify }}
+  {{ $style := resources.Get "css/custom.css" | minify }}
   <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 </head>
 <body>

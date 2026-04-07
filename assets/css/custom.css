@@ -1,0 +1,43 @@
+.logo-text {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+  font-family: "DejaVu Sans Mono";
+  font-size: clamp(60px, 10cqw, 128px);
+  container-type: inline-size;
+}
+
+.logo-free {
+  color: #D7D7D7;
+}
+
+.logo-dev {
+  color: #11D116;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  display: block;
+  text-decoration: none !important;
+  color: inherit;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 6px;
+  background-color: #222;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.card:hover {
+  background-color: #333;
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
