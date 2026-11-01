@@ -1,10 +1,9 @@
 +++
 draft = false
-title = 'Donate'
+title = 'Doação'
 +++
 
-If you liked any project and want to show your support so I can continue producing free,
-high-quality content, you can make a donation in whatever way you prefer:
+Se você gosta de algum projeto desenvolvido/escrito pela FreeDev e quer contribuir para a produção de conteúdo técnico de qualidade e software livre, considere fazer uma doação.
 
 ## Pix
 
@@ -13,19 +12,3 @@ high-quality content, you can make a donation in whatever way you prefer:
 ```
 
 <img src="/img/qrcode-pix.jpeg" style="width: auto">
-
-## Bitcoin
-
-```
-15FMHdBzzW2HoYETiCZQSbTmfYku3fCqS4
-```
-
-<img src="/img/qrcode-bitcoin.png" style="width: auto">
-
-## Ethereum
-
-```
-0xceC713dfB30d7d88bB81d8A650d136c6a21d71A1
-```
-
-<img src="/img/qrcode-ethereum.png" style="width: auto">
