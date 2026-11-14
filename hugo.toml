@@ -1,5 +1,5 @@
 baseURL = 'https://freedev.com.br/'
-locale = 'en-us'
+locale = 'pt-br'
 title = 'FreeDev'
 theme = 'nojs'
 
@@ -10,13 +10,13 @@ theme = 'nojs'
 
 [menu]
   [[menu.main]]
-    name = "Home"
+    name = "Início"
     url = "/"
     weight = 1
 
   [[menu.main]]
-    name = "Projects"
-    url = "/projects/"
+    name = "Projetos"
+    url = "/projetos/"
     weight = 2
 
   [[menu.main]]

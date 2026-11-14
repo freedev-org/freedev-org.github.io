@@ -4,9 +4,10 @@ draft = false
 title = 'FreeDev'
 +++
 
-We contribute with the community developing open source software and publishing technical content.
+Nós contribuímos com a comunidade publicando conteúdo técnico de qualidade e desenvolvendo projetos open source.
 
-[GitHub] | [Twitter] | [Donate](/donate/)
+[GitHub] | [Twitter] | [Comunidade Zenodo] | [Doação](/donate/)
 
 [GitHub]: https://github.com/freedev-org
 [Twitter]: https://x.com/freedevorg
+[Comunidade Zenodo]: https://zenodo.org/communities/freedev/

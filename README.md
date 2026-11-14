@@ -1,3 +1,3 @@
 # FreeDev
 
-FreeDev's site: <https://freedev.com.br/>
+Site da FreeDev: <https://freedev.com.br/>

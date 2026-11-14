@@ -5,7 +5,7 @@
 
   {{ .Content }}
 
-  <h1>Featured projects</h1>
+  <h1>Projetos em destaque</h1>
 
   {{ $projects := where .Site.RegularPages "Section" "projects" }}
   {{ $featured := where $projects "Params.featured" true }}
