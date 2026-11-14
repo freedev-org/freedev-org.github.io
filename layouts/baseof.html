@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
+<html lang="{{ site.Language.Locale }}" dir="{{ or site.Language.Direction `ltr` }}">
+
 <head>
   {{ partial "head.html" . }}
 
   {{ $style := resources.Get "css/custom.css" | minify }}
   <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 </head>
+
 <body>
   <header>
     {{ partial "header.html" . }}
@@ -17,4 +19,5 @@
     {{ partial "footer.html" . }}
   </footer>
 </body>
+
 </html>
