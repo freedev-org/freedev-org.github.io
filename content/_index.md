@@ -6,7 +6,7 @@ title = 'FreeDev'
 
 Nós contribuímos com a comunidade publicando conteúdo técnico de qualidade e desenvolvendo projetos open source.
 
-[GitHub] | [Twitter] | [Comunidade Zenodo] | [Doação](/donate/)
+[GitHub] | [Twitter] | [Comunidade Zenodo] | [Doação](/doacao/)
 
 [GitHub]: https://github.com/freedev-org
 [Twitter]: https://x.com/freedevorg

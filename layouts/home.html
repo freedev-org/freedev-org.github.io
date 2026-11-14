@@ -7,7 +7,7 @@
 
   <h1>Projetos em destaque</h1>
 
-  {{ $projects := where .Site.RegularPages "Section" "projects" }}
+  {{ $projects := where .Site.RegularPages "Section" "projetos" }}
   {{ $featured := where $projects "Params.featured" true }}
   {{ $sorted := sort $featured "Weight" }}
   <div class="projects">
